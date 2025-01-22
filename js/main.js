@@ -3,9 +3,9 @@ const openNav = document.querySelector("#open");
 const closeNav = document.querySelector("#close");
 
 openNav.addEventListener("click", ()=> {
-    nav.classList.add("nav__visible");
+    nav.classList.add("nav--visible");
 })
 
 closeNav.addEventListener("click", ()=> {
-    nav.classList.remove("nav__visible");
+    nav.classList.remove("nav--visible");
 })
